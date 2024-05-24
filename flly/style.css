@@ -1,10 +1,30 @@
 header {
   background-color: rgb(90, 74, 51);
+  height: 80px;
+  width: 100%;
 }
 h1 {
   color: white;
+  position: absolute;
+  left:120px;
+  top:0px;
+  line-height: 80px;
+}
+header ul{
+    position: absolute;
+    right:5vw;
+    top:0;
+    line-height: 80px;
 }
 header a {
   color: white;
   text-decoration: none;
+}
+header a:hover{
+    color: white;
+    text-decoration: underline;
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
 }

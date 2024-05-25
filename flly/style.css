@@ -1,14 +1,20 @@
-header {
-  background-color: rgb(90, 74, 51);
-  height: 80px;
-  width: 100%;
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-h1 {
-  color: white;
-  position: absolute;
-  left:120px;
-  top:0px;
-  line-height: 80px;
+header {
+    background-color: rgb(90, 74, 51);
+    height: 80px;
+    width: 100%;
+}
+header h1 {
+    color: white;
+    position:absolute;
+    left: 120px;
+    top:0;
+    line-height: 80px;
+    /* background-image: url(images/LOGO.svg); */
 }
 header ul{
     position: absolute;
@@ -17,8 +23,8 @@ header ul{
     line-height: 80px;
 }
 header a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 header a:hover{
     color: white;
@@ -27,4 +33,9 @@ header a:hover{
 header li{
     display: inline;
     margin-right: 4vw;
+}
+.page{
+    height: 85vh;
+    background-color: rgb(255, 240, 222);
+    color:rgb(89, 88, 88)
 }

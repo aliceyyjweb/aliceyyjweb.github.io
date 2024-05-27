@@ -3,10 +3,14 @@ body{
     padding: 0;
     margin: 0;
 }
+.menu{
+    display: none;
+}
 header {
     background-color: rgb(90, 74, 51);
     height: 80px;
     width: 100%;
+    position: fixed;
 }
 header h1 {
     color: white;
@@ -14,7 +18,7 @@ header h1 {
     left: 120px;
     top:0;
     line-height: 80px;
-    /* background-image: url(images/LOGO.svg); */
+    background-image: url(images/bLOGO.png);
 }
 header ul{
     position: absolute;
@@ -37,7 +41,7 @@ header li{
 
 .pageone{
     height: 85vh;
-    background-color: rgb(255, 240, 222);
+    background-color: #FFFCEC;
     color:rgb(255, 255, 255);
     background-image: url(images/fpbg.png);
     background-repeat: no-repeat;
@@ -50,6 +54,7 @@ header li{
 }
 .pageone h2{
     font-size: 60px;
+    margin-top: 60px;
 }
 .pageone p{
     color: rgb(255, 240, 222);
@@ -65,7 +70,7 @@ header li{
 
 .pagetwo{
     height: 300px;
-    background-color: rgb(247, 246, 228);
+    background-color: #FFFCEC;
     color:rgb(89, 88, 88);
     display:flex;
     align-items: center;
@@ -81,7 +86,7 @@ header li{
 
 .info{
     width: 50%;
-    background-color: rgb(247, 246, 228);
+    background-color: #FFFCEC;
     color:rgb(89, 88, 88);
     display:flex;
     flex-direction: column;
@@ -99,7 +104,7 @@ header li{
 
 .pagecard{
     display:flex;
-    background-color: rgb(247, 246, 228);
+    background-color: #FFFCEC;
     justify-content: space-between;
     align-items: center;
     padding: 100px;
@@ -129,4 +134,49 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 14px;
+}
+
+/* 響應式設計語法 */
+@media screen and (max-width: 768px){
+    header ul{
+        display: none;
+    }
+    header h1{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .pageone h2{
+        font-size: 40px;
+    }
+    .menu{
+        display: block;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+        font-size:35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .page3{
+        flex-direction: column;
+    }
+    .page3 img{
+        width: 100%;
+    }
+    info{
+        width: 100%;
+        padding: 40px 0;
+    }
+    .info h2{
+        font-size: 30px;
+    }
+    .pagecard{
+        flex-direction: column;
+        padding: 60px 0;
+    }
+    .pagecard div{
+        margin-bottom: 30px;
+    }
 }

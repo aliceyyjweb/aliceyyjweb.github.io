@@ -97,22 +97,26 @@ header li{
     line-height: 2em;
 }
 
-.card{
-    display: flex;
+.pagecard{
+    display:flex;
+    background-color: rgb(247, 246, 228);
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
 }
-.card div{
+.pagecard div{
     width: 300px;
     text-align: center;
 }
-.card img{
+.pagecard img{
     width: 100%;
     border-radius: 10px;
 }
-.card h3{
+.pagecard h3{
     font-size: 20px;
     margin: 20px 0;
 }
-.card p{
+.pagecard p{
     font-size: 14px;
     line-height: 1.6em;
 }

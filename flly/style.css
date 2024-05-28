@@ -18,7 +18,7 @@ header h1 {
     left: 120px;
     top:0;
     line-height: 80px;
-    background-image: url(images/bLOGO.png);
+    background-image: url(images/logo.svg);
 }
 header ul{
     position: absolute;

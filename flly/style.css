@@ -3,28 +3,14 @@ body{
     padding: 0;
     margin: 0;
 }
-.menu{
-    display: none;
-}
-header {
-    background-color: rgb(90, 74, 51);
-    height: 80px;
-    width: 100%;
-    position: fixed;
-}
-header h1 {
-    color: white;
+
+/* .headtitle {
     position:absolute;
-    left: 120px;
-    top:0;
-    line-height: 80px;
-    background-image: url(images/logo.svg);
-}
+    left: 10vw;
+}  */
 header ul{
     position: absolute;
     right:5vw;
-    top:0;
-    line-height: 80px;
 }
 header a {
     color: white;
@@ -37,6 +23,16 @@ header a:hover{
 header li{
     display: inline;
     margin-right: 4vw;
+}
+
+.overflowtest{
+    background-color: rgb(254, 255, 242);
+    color: rgb(89, 88, 88);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px auto;
+    height: 300px;
+    overflow: scroll;
 }
 
 .pageone{
@@ -134,49 +130,4 @@ footer{
     align-items: center;
     justify-content: center;
     font-size: 14px;
-}
-
-/* 響應式設計語法 */
-@media screen and (max-width: 768px){
-    header ul{
-        display: none;
-    }
-    header h1{
-        left: 50%;
-        transform: translateX(-50%);
-    }
-    .pageone h2{
-        font-size: 40px;
-    }
-    .menu{
-        display: block;
-        background-color: transparent;
-        color: rgb(255, 255, 255);
-        font-size:35px;
-        position: absolute;
-        top: 15px;
-        left: 20px;
-        border: none;
-        cursor: pointer;
-    }
-    .page3{
-        flex-direction: column;
-    }
-    .page3 img{
-        width: 100%;
-    }
-    info{
-        width: 100%;
-        padding: 40px 0;
-    }
-    .info h2{
-        font-size: 30px;
-    }
-    .pagecard{
-        flex-direction: column;
-        padding: 60px 0;
-    }
-    .pagecard div{
-        margin-bottom: 30px;
-    }
 }

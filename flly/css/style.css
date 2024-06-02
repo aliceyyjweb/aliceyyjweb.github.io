@@ -12046,10 +12046,11 @@ body {
 .site-nav {
   padding-top: 20px;
   padding-bottom: 20px;
-  position: absolute;
+  position: fixed;
   top: 0;
-  z-index: 9;
+  z-index: 1000;
   width: 100%;
+  opacity: 0.8;
 }
 .site-nav h1,
 .site-nav .h1 {
@@ -12700,7 +12701,7 @@ textarea {
 }
 
 .menu-bg-wrap {
-  background-color: #005555;
+  background-color: gray;
   padding: 20px 30px;
   position: relative;
   float: left;

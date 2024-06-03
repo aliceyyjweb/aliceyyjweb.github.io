@@ -5,7 +5,7 @@
 body {
   background-color: #f0eee6;
   margin-top: 20px;
-  font-family:'Noto serif tc'!important;
+  font-family:'Noto serif tc';
 }
 
 .main-timeline {
@@ -266,6 +266,3 @@ ol.alicelist>li:hover{
     color:rgb(39, 48, 83);
 } 
 
-.photo{
-    border-radius: 5%;
-}

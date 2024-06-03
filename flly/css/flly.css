@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #f0eee6;
   margin-top: 20px;
   font-family:'Noto serif tc'!important;
 }
@@ -258,9 +258,14 @@ body {
 }
 .references{
     font-size: 40px;
-    padding: 25px 0 0;
+    padding: 5px;
+    margin: 50px 0;
 }
 ol.alicelist>li:hover{
     background-color: rgb(201, 200, 200);
     color:rgb(39, 48, 83);
 } 
+
+.photo{
+    border-radius: 5%;
+}

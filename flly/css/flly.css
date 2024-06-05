@@ -5,9 +5,8 @@
 body {
   background-color: #f0eee6;
   margin-top: 20px;
-  font-family:'Noto serif tc';
+  font-family: "Noto serif tc";
 }
-
 .main-timeline {
   position: relative;
 }
@@ -256,13 +255,75 @@ body {
     margin-bottom: 10px;
   }
 }
-.references{
-    font-size: 40px;
-    padding: 5px;
-    margin: 50px 0;
-}
-ol.alicelist>li:hover{
-    background-color: rgb(201, 200, 200);
-    color:rgb(39, 48, 83);
-} 
 
+.references {
+  font-size: 40px;
+  padding: 5px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+ol.alicelist > li:hover {
+  background-color: rgb(201, 200, 200);
+  color: rgb(39, 48, 83);
+}
+
+.more {
+  font-size: 18px;
+}
+.more:hover {
+  background-color: rgb(201, 200, 200);
+  color: rgb(251, 255, 0);
+}
+
+.newphoto{
+  background: url(../img/bg2.jpg);
+}
+.overflowest {
+  font-size: 16px;
+  background-color: rgb(254, 255, 219);
+  color: rgb(67, 72, 77);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px auto;
+  width: 70%;
+  overflow: auto;
+  background: linear-gradient(rgb(255, 254, 219), #ffffff);
+}
+.newcardl{
+  background: linear-gradient(rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  padding: 10px;
+  border-radius: 15px 100px;
+  margin: 15px auto;
+  overflow: auto;
+}
+.newcardr{
+  background: linear-gradient(rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  padding: 10px;
+  border-radius: 100px 15px ;
+  margin: 15px auto;
+  overflow: auto;
+}
+.lowcardl{
+  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  border-radius: 15px 50px;
+  overflow: auto;
+}
+.lowcardr{
+  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  border-radius: 50px 15px;
+  overflow: auto;
+}
+.namecard{
+  background: linear-gradient(rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 15px auto;
+  height: 500px;
+  overflow: auto;
+}

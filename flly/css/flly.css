@@ -306,16 +306,26 @@ ol.alicelist > li:hover {
   margin: 15px auto;
   overflow: auto;
 }
+.countrycardr{
+  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  padding: 20px;
+  border-radius: 15px 50px;
+  height: 380px;
+  overflow: visible;
+}
 .lowcardl{
   background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
   border-radius: 15px 50px;
-  overflow: auto;
+  height: 200px;
+  overflow: visible;
 }
 .lowcardr{
   background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
   border-radius: 50px 15px;
+  height: 200px;
   overflow: auto;
 }
 .namecard{
@@ -325,5 +335,5 @@ ol.alicelist > li:hover {
   border-radius: 15px;
   margin: 15px auto;
   height: 500px;
-  overflow: auto;
+  overflow: visible;
 }

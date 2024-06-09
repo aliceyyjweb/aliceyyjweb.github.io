@@ -6,10 +6,6 @@ body {
   background-color: #f0eee6;
   margin-top: 20px;
   font-family: "Noto serif tc";
-  background: url(../img/bglast.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .main-timeline {
   position: relative;
@@ -273,19 +269,19 @@ ol.alicelist > li:hover {
 }
 
 .more {
-  font-size: 18px;
+  font-size: 16px;
 }
 .more:hover {
   background-color: rgb(201, 200, 200);
   color: rgb(251, 255, 0);
 }
 
-/* .newphoto{
+.newphoto{
   background: url(../img/bglast.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-} */
+}
 .overflowest {
   font-size: 16px;
   background-color: rgb(254, 255, 219);
@@ -298,19 +294,20 @@ ol.alicelist > li:hover {
   background: linear-gradient(rgb(255, 254, 219), #ffffff);
 }
 .newcardl{
-  background: linear-gradient(rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
   padding: 10px;
-  border-radius: 15px 100px;
+  border-radius:100px 15px;
   margin: 15px auto;
   overflow: auto;
 }
-.newcardr{
+.namecard{
   background: linear-gradient(rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
-  padding: 10px;
-  border-radius: 100px 15px ;
-  margin: 15px auto;
+  padding: 1rem;
+  width: 20vw;
+  min-width: min-content;
+  border-radius: 15px;
   overflow: auto;
 }
 .countrycardr{
@@ -349,6 +346,5 @@ ol.alicelist > li:hover {
   padding: 10px;
   border-radius: 15px;
   margin: 15px auto;
-  height: 500px;
-  overflow: visible;
+  overflow: auto;
 }

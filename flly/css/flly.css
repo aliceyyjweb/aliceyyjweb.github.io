@@ -277,7 +277,10 @@ ol.alicelist > li:hover {
 }
 
 .newphoto{
-  background: url(../img/bg2.jpg);
+  background: url(../img/bglast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .overflowest {
   font-size: 16px;
@@ -309,7 +312,15 @@ ol.alicelist > li:hover {
 .countrycardr{
   background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
-  padding: 20px;
+  padding: 30px;
+  border-radius: 15px 50px;
+  height: 380px;
+  overflow: visible;
+}
+.countrycardl{
+  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  color: rgb(67, 72, 77);
+  padding: 30px;
   border-radius: 15px 50px;
   height: 380px;
   overflow: visible;

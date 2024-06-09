@@ -269,11 +269,11 @@ ol.alicelist > li:hover {
 }
 
 .more {
-  font-size: 16px;
+  font-size: 18px;
+  text-decoration: none;
 }
 .more:hover {
-  background-color: rgb(201, 200, 200);
-  color: rgb(251, 255, 0);
+  text-decoration: underline;
 }
 
 .newphoto{
@@ -281,7 +281,7 @@ ol.alicelist > li:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+} 
 .overflowest {
   font-size: 16px;
   background-color: rgb(254, 255, 219);
@@ -294,24 +294,23 @@ ol.alicelist > li:hover {
   background: linear-gradient(rgb(255, 254, 219), #ffffff);
 }
 .newcardl{
-  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
   padding: 10px;
-  border-radius:100px 15px;
+  border-radius: 15px 100px;
   margin: 15px auto;
   overflow: auto;
 }
-.namecard{
-  background: linear-gradient(rgb(255, 254, 219), #ffffff);
+.newcardr{
+  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
-  padding: 1rem;
-  width: 20vw;
-  min-width: min-content;
-  border-radius: 15px;
+  padding: 10px;
+  border-radius: 100px 15px ;
+  margin: 15px auto;
   overflow: auto;
 }
 .countrycardr{
-  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
   padding: 30px;
   border-radius: 15px 50px;
@@ -319,7 +318,7 @@ ol.alicelist > li:hover {
   overflow: visible;
 }
 .countrycardl{
-  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
   padding: 30px;
   border-radius: 15px 50px;
@@ -343,8 +342,9 @@ ol.alicelist > li:hover {
 .namecard{
   background: linear-gradient(rgb(255, 254, 219), #ffffff);
   color: rgb(67, 72, 77);
-  padding: 10px;
+  padding: 1rem;
+  width: 20vw;
+  min-width: min-content;
   border-radius: 15px;
-  margin: 15px auto;
   overflow: auto;
 }

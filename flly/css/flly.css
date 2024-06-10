@@ -294,7 +294,7 @@ ol.alicelist > li:hover {
   background: linear-gradient(rgb(255, 254, 219), #ffffff);
 }
 .newcardl{
-  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to right,rgb(168, 176, 189), #ffffff);
   color: rgb(67, 72, 77);
   padding: 10px;
   border-radius: 15px 100px;
@@ -302,7 +302,7 @@ ol.alicelist > li:hover {
   overflow: auto;
 }
 .newcardr{
-  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to left,rgb(150, 143, 121), #ffffff);
   color: rgb(67, 72, 77);
   padding: 10px;
   border-radius: 100px 15px ;
@@ -310,7 +310,7 @@ ol.alicelist > li:hover {
   overflow: auto;
 }
 .countrycardr{
-  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  background-color: rgba(150, 143, 121, 0.365);
   color: rgb(67, 72, 77);
   padding: 30px;
   border-radius: 15px 50px;
@@ -318,7 +318,7 @@ ol.alicelist > li:hover {
   overflow: visible;
 }
 .countrycardl{
-  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
+  background-color: rgba(168, 176, 189, 0.365);
   color: rgb(67, 72, 77);
   padding: 30px;
   border-radius: 15px 50px;
@@ -326,14 +326,14 @@ ol.alicelist > li:hover {
   overflow: visible;
 }
 .lowcardl{
-  background: linear-gradient(to right,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to right,rgb(168, 176, 189), #ffffff);
   color: rgb(67, 72, 77);
   border-radius: 15px 50px;
   height: auto;
   overflow: auto;
 }
 .lowcardr{
-  background: linear-gradient(to left,rgb(255, 254, 219), #ffffff);
+  background: linear-gradient(to left,rgb(150, 143, 121), #ffffff);
   color: rgb(67, 72, 77);
   border-radius: 50px 15px;
   height: auto;

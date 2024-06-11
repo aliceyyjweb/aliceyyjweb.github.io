@@ -329,14 +329,14 @@ ol.alicelist > li:hover {
   background: linear-gradient(to right,rgb(168, 176, 189), #ffffff);
   color: rgb(67, 72, 77);
   border-radius: 15px 50px;
-  height: auto;
+  height: 100%;
   overflow: auto;
 }
 .lowcardr{
   background: linear-gradient(to left,rgb(150, 143, 121), #ffffff);
   color: rgb(67, 72, 77);
   border-radius: 50px 15px;
-  height: auto;
+  height: 100%;
   overflow: auto;
 }
 .namecard{

@@ -15,6 +15,21 @@ body{
     background-size: cover;
 }
 
+.nametitle{
+    background-color: rgb(211, 231, 249) !important;
+    padding: 50px 30px;
+    border-radius: 10px;
+    margin: 0px;
+    background-image: url(../assets/img/nametitle2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blackblack{
+    font-weight: bold;
+    color: rgb(48, 63, 64);
+}
+
 div.redred{
     padding: 10px 50px 15px;
     background-color: rgba(44, 182, 108, 0.5);

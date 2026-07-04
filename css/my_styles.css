@@ -113,3 +113,15 @@ table.alicetable tr:nth-child(even){
     overflow: visible;
     background: linear-gradient(to right, rgb(219, 235, 255), #ffffff);
 }
+
+/* 1. 先設定選單連結的預設狀態 */
+#sideNav .navbar-nav .nav-item .nav-link {
+    display: inline-block;          /* 轉為區塊元素，動畫放大時才不會卡住 */
+    transition: transform 0.3s ease; /* 設定平滑微調：0.3秒內完成，動作要柔和 */
+}
+
+/* 2. 當滑鼠滑過去 (:hover) 時的變大特效 */
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+    transform: scale(1.15);         /* scale(1.15) 代表放大為原本的 1.15 倍 */
+    color: #ffffff !important;      /* 可選：滑過去時文字顏色變亮（可依喜好自行調整或拿掉） */
+}

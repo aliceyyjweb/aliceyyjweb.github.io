@@ -4,13 +4,13 @@
 }
 
 body{
-    background-color: aliceblue;
+    background-color: rgb(255, 250, 240);
     font-family:'Noto serif tc';
 }
 
 .bg-primary{
     background-color: rgb(179, 149, 104) !important;
-    background-image: url(../assets/img/bg2.jpg) ;
+    background-image: url(../assets/img/navbg4.JPG) ;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,7 +20,7 @@ body{
     padding: 50px 30px;
     border-radius: 10px;
     margin: 0px;
-    background-image: url(../assets/img/nametitle2.jpg);
+    background-image: url(../assets/img/nametitle3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

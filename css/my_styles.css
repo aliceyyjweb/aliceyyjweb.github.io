@@ -69,7 +69,7 @@ body{
     background-color: rgb(75, 68, 55) !important;  /* 可選：滑過去時讓棕色稍微變淺或變深（這邊是稍微變淺一點點） */
 }
 
-/*div.redred{
+div.redred{
     padding: 10px 50px 15px;
     background-color: rgba(44, 182, 108, 0.5);
     color:rgb(255, 255, 255);
@@ -80,7 +80,7 @@ body{
     background-image: url(../assets/img/bg-star.jpg.jpg);
     font-size: 40px;
     text-align: center;
-}*/
+}
 
 .blueblue{
     color:rgb(157, 103, 37);

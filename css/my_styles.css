@@ -15,6 +15,10 @@ body{
     background-size: cover;
 }
 
+.nword{
+    color: rgb(255, 250, 240);
+}
+
 .nametitle{
     background-color: rgb(211, 231, 249) !important;
     padding: 50px 30px;
@@ -28,6 +32,41 @@ body{
 .blackblack{
     font-weight: bold;
     color: rgb(49, 44, 35);
+}
+
+.mabme{
+    color: rgb(49, 44, 35);
+    text-decoration: none;
+    border: 1px solid rgb(49, 44, 35);
+    border-radius: 50px;
+    margin: 10px 10px 10px;
+    padding: 10px 25px;
+    display: inline-block;      /* 讓縮放和動畫更順暢 */
+    transition: all 0.3s ease;  /* 關鍵：讓變色、放大有 0.3 秒的滑順感 */
+}
+
+.mabme:hover{
+    transform: scale(1.1);
+    background-color: rgb(49, 44, 35) !important; /* 滑過去時，背景填滿深色 */
+    color: rgb(255, 250, 240) !important;                 /* 滑過去時，裡面的文字和箭頭圖示強制變成白色 */
+    border-color: rgb(49, 44, 35) !important;
+}
+
+.social-icons .social-icon {
+    border: 1px solid rgb(49, 44, 35);
+    border-radius: 50px;
+    margin: 10px 10px 10px;
+    padding: 10px 25px;
+    background-color: rgb(255, 250, 240) !important; /* 強制把原本的灰色背景改成你的專屬棕色 */
+    color: rgb(49, 44, 35) !important;                    /* 確保裡面的 IG 圖標是白色的 */
+    transition: all 0.3s ease;                    /* 讓滑鼠移過去的動畫保持滑順 */
+}
+
+/* 2. 設定社群圖標（滑鼠移過去 :hover 的狀態） */
+.social-icons .social-icon:hover {
+    transform: scale(1.1);                        /* 滑過去時微微放大 1.1 倍 */
+    color: rgb(255, 250, 240) !important;
+    background-color: rgb(75, 68, 55) !important;  /* 可選：滑過去時讓棕色稍微變淺或變深（這邊是稍微變淺一點點） */
 }
 
 div.redred{
@@ -44,7 +83,7 @@ div.redred{
 }
 
 .blueblue{
-    color:rgb(220, 140, 41);
+    color:rgb(157, 103, 37);
 }
 
 .expedu_icon{
@@ -91,8 +130,8 @@ table.alicetable tr:nth-child(even){
 }
 
 .overflowtest{
-    background-color: rgb(219, 235, 255);
-    color: rgb(74, 82, 89);
+    background-color: rgb(254, 233, 196);
+    color: rgb(49, 44, 35);
     padding: 10px;
     border-radius: 15px;
     margin: 15px auto;
